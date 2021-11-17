@@ -1,11 +1,11 @@
 let start=document.querySelector(".start")
-totalizar=document.querySelector(".totalizar")
+let totalizar=document.querySelector(".totalizar")
 let pantalla = document.querySelector(".pantalla")
 let ingresar = document.querySelector(".ingresar")
 let resultadoFinal=0
 let creditosT=0
-limite=100
-evento=true
+let limite=100
+let evento=true
 
 
 
