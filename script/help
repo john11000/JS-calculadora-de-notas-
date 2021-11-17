@@ -1,0 +1,49 @@
+  if(cantidadNotas>limite){
+            alert("ah, sos re trol")
+            let opcionLimite = confirm(`Por cuestiones de  velocidad de procesamiento se tardaria mucho en operar ${cantidadNotas} notas, ¿desea crear  ${limite} notas? El limite de casillas es de ${limite}, dar click en aceptar para borrar casillas, clip en cancelar para forzar el procesamiento.`)
+            console.log(opcionLimite)
+            if(opcionLimite){
+                cantidadNotas = document.querySelector(".cantidadNotas").value=limite
+
+                let fragment = new DocumentFragment()
+        
+                for(let i=1;i<=cantidadNotas;i++){
+                    texto= document.createElement("div")
+                    
+                    texto.innerHTML+=`
+                    <div class="notas">
+                    <input type="text"  placeholder="nota${i}" class="n${i}">
+                    <input type="text" placeholder="creditos" class="c${i}">
+                </div>
+                    `
+                    fragment.appendChild(texto)
+            
+            
+                }
+                ingresar.appendChild(fragment)
+                totalizar.removeAttribute("hidden")
+                console.log(cantidadNotas)
+                
+               
+
+            }     else{
+                let fragment = new DocumentFragment()
+        
+                for(let i=1;i<=cantidadNotas;i++){
+                    texto= document.createElement("div")
+                    
+                    texto.innerHTML+=`
+                    <div class="notas">
+                    <input type="text"  placeholder="nota${i}" class="n${i}">
+                    <input type="text" placeholder="creditos" class="c${i}">
+                </div>
+                    `
+                    fragment.appendChild(texto)
+            
+            
+                }
+                ingresar.appendChild(fragment)
+                totalizar.removeAttribute("hidden")
+                console.log(cantidadNotas)
+            }
+        }

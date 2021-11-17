@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background: #667db6;
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+}
+td {
+    background: none;
+}
+th{
+    background: none;
+}
+.imagenes{
+    width: 10%;
+    background: none;
+}
+.semi{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.app{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+.calN{
+    margin:20px  auto;
+    text-align: center;
+}
+.cantidad{
+    padding: 20px;
+}
+input{
+    padding: 10px 5px;
+    background: white;
+    font-weight: bold;
+}
+
+.color1{
+    background: rgb(4, 103, 128);
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+}
+.color2{
+    background: rgb(0, 177, 0);
+    font-weight: bold;
+    
+}
+
+.color1:hover{
+    background: rgb(8, 193, 240);
+}
+.color2:hover{
+    background: rgb(10, 245, 10);
+}
+.default{
+    background: white;
+    margin: auto;
+    padding: 10px;
+}
+.pantalla{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 250px;
+}
+.default>tr>td,th{
+    padding: 5px;
+    background: white;
+
+}
+td{
+    padding: 5px;
+    background: white;
+    font-weight: bold;
+}
+.aprobado{
+    background: green;
+    font-weight: bold;
+    color: white;
+}
+.desaprobado{
+    background: red;
+    font-weight: bold;
+    color: white;
+}
+.notificacion{
+    background: white;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 6px 3px;
+    border-radius: 5px 5px 10px 10px;
+    display: grid;
+    grid-template-columns: 90% 10%
+    
+    
+
+}
+.nr{
+    box-shadow: 1px  1px 5px red;
+
+}
+.x{
+    
+    background: red;
+    color: black;
+    font-weight: bolder;
+    padding: 0px 2px;
+    margin: 0px 5px;
+    
+}
+.x:hover{
+    background: rgb(255, 52, 52);
+}
+.nv{
+    box-shadow: 1px  1px 5px rgb(0, 255, 0);
+}
+.notificacion {
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+
+  #Main{
+    position: fixed;
+    bottom:2px;
+    width: 100%;
+    height: 25px;
+    
+}
+a{
+color: #0bff0b;
+font-size: 1.2rem;
+background: white;
+text-decoration: none;
+padding: 3px 10px;
+margin: 10px;
+font-weight: bold;
+box-shadow: 1px 1px 3px;
+
+}
+a:hover{
+    background-color: #047904;
+}
+  
+  @keyframes slidein {
+    from {
+      margin-top: -50%;
+      width: 60%
+    }
+  
+    to {
+        margin-top: 0;
+    }
+  }
