@@ -1,13 +1,13 @@
 let start=document.querySelector(".start")
-totalizar=document.querySelector(".totalizar")
+let totalizar=document.querySelector(".totalizar")
 let pantalla = document.querySelector(".pantalla")
 let ingresar = document.querySelector(".ingresar")
 let cNotificacion=document.querySelector(".cNotificacion")
 let resultadoFinal=0
 let creditosT=0
-limite=100
-evento=true
-eventoNoti=true
+let limite=100
+let evento=true
+let eventoNoti=true
 
 
 
